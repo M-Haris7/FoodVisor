@@ -68,48 +68,49 @@
             </div>
         </div>
         <div class="customBox">
-            <div class="tryThisNew">
-                <span style="font-size: 1.2rem;" class="noImageSpanNew">No image? Try one of these:</span><br>
+            <div style="margin-bottom: 1%;" class="tryThisNew">
+              <span style="font-size: 1.2rem;" class="noImageSpanNew">No image? Try one of these:</span><br>
             </div>
+          
             <div class="flexContainer gap-2">
-                <button class="imageButtonOne">
-                    <div class="imageContainerOne">
-                        <figure class="imageFigureOne">
-                            <picture>
-                                <img src="" alt="Example image" class="imageClassOne" loading="lazy" draggable="false">
-                            </picture><!---->
-                        </figure>
-                    </div>
-                </button>
-                <button class="imageButtonTwo">
-                    <div class="imageContainerTwo">
-                        <figure class="imageFigureTwo">
-                            <picture>
-                                <img src="" alt="Example image" class="imageClassTwo" loading="lazy" draggable="false">
-                            </picture><!---->
-                        </figure>
-                    </div>
-                </button>
-                <button class="imageButtonThree">
-                    <div class="imageContainerThree">
-                        <figure class="imageFigureThree">
-                            <picture>
-                                <img src="" alt="Example image" class="imageClassThree" loading="lazy" draggable="false">
-                            </picture><!---->
-                        </figure>
-                    </div>
-                </button>
-                <button class="imageButtonFour">
-                    <div class="imageContainerFour">
-                        <figure class="imageFigureFour">
-                            <picture>
-                                <img src="" alt="Example image" class="imageClassFour" loading="lazy" draggable="false">
-                            </picture>
-                        </figure>
-                    </div>
-                </button>
+              <button class="imageButton" action="/upload" method="POST" enctype="multipart/form-data">
+                <div class="imageContainer">
+                  <img src="../static/img/tryme/neem.jpg" alt="Neem image" id="imageClass" style="
+                  width: 100px;
+                  height: 100px; loading="lazy" draggable="false">
+                </div>
+                <div class="leafName"><h3 style="font-size: 1rem; padding: 0; margin: 0;"> Neem </h3></div>
+              </button>
+          
+              <button class="imageButton">
+                <div class="imageContainer">
+                  <img src="../static/img/tryme/Peeple.jpg" alt="Peeple image" id="imageClass" style="
+                  width: 100px;
+                  height: 100px; loading="lazy" draggable="false">
+                </div>
+                <div class="leafName"><h3 style="font-size: 1rem; padding: 0; margin: 0;"> Peeple </h3></div>
+              </button>
+          
+              <button class="imageButton">
+                <div class="imageContainer">
+                  <img src="../static/img/tryme/Rasna.jpg" alt="Rasna image" id="imageClass" style="
+                  width: 100px;
+                  height: 100px; loading="lazy" draggable="false">
+                </div>
+                <div class="leafName"><h3 style="font-size: 1rem; padding: 0; margin: 0;"> Rasna </h3></div>
+              </button>
+          
+              <button class="imageButton">
+                <div class="imageContainer">
+                  <img src="../static/img/tryme/Piper Beetle.jpg" alt="Piper Beetle image" id="imageClass" style="
+                  width: 100px;
+                  height: 100px; loading="lazy" draggable="false">
+                </div>
+                <div class="leafName"><h3 style="font-size: 1rem; padding: 0; margin: 0;"> Piper Betle<br>(Paan ka Patta) </h3></div>
+              </button>
+
             </div>
-        </div>
+          </div>
             
     </div>
 </body>
