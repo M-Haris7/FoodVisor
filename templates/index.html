@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>औषध HUB</title>
+    <title>Food Visor</title>
     <link rel="stylesheet" href="../static/stylesheets/style.css">
     <link rel="icon" type="image/x-icon" href="../static/img/webpage_logo_final.png">
     <link rel="shortcut icon" href="#">
@@ -20,15 +20,15 @@
             <nav class="navbar">
                 <div class="textandlogo">
                     <a href="/" class="logo"> <img src="../static/img/logo.svg" alt="logo"> </a>
-                    <span href="/" class="logoname"><h1>औषध HUB</h1></span>
+                    <span href="/" class="logoname"><h1>Food Visor</h1></span>
                 </div>
 
-                <div class="aboutSection">
-                    <a href="https://github.com/AusafMo/AushadhHub-BackEnd" class="about">
+                <!-- <div class="aboutSection">
+                    <a href="https://github.com" class="about">
                         <span class="githublogo">About</span>
                         <i class="fab fa-github"></i>
                     </a>
-                </div>
+                </div> -->
                 
                 <div class="toggle">
                   </div>
@@ -36,8 +36,8 @@
         </header>
 
         <div class="tool-section">
-            <h1 class="toolheading">Medicinal Herb Prediction</h1>
-            <p class="slogan">Analyze leaf images and identify medicinal plants, leaf no question unanswered!</p>
+            <h1 class="toolheading">Food Calorie Prediction</h1>
+            <p class="slogan">Analyze food images and find the calories it have before you consume your favourite dish!</p>
             <div class="toolwindow">
                 <div class="section">
                     <div class="tool-span">
@@ -47,6 +47,7 @@
                                 <div class="afterImage" id="something">
                                     <img id="image" style="width:auto; height:120px; margin-bottom: 1rem;" class="normal"/>
                                 </div>
+
                                 <label><img id="svgImage" src="../static/img/tool-box-image.svg" alt="image-logo"></label>
                                 <span class="drag-n-drop-text" id="js-drag-n-drop">Drag &amp; Drop, Upload or Paste image <br></span>
                                       
@@ -68,11 +69,13 @@
             </div>
         </div>
         <div class="customBox">
-            <div style="margin-bottom: 1%;" class="tryThisNew">
+
+            <!-- <div style="margin-bottom: 1%;" class="tryThisNew">
               <span style="font-size: 1.2rem;" class="noImageSpanNew">No image? Try one of these:</span><br>
-            </div>
+            </div> -->
           
-            <div class="flexContainer gap-2">
+            <!-- <div class="flexContainer">
+
               <button class="imageButton" action="/upload" method="POST" enctype="multipart/form-data">
                 <div class="imageContainer">
                   <img src="../static/img/tryme/neem.jpg" alt="Neem image" id="imageClass" style="
@@ -106,12 +109,11 @@
                   width: 100px;
                   height: 100px; loading="lazy" draggable="false">
                 </div>
-                <div class="leafName"><h3 style="font-size: 1rem; padding: 0; margin: 0;"> Piper Betle<br>(Paan ka Patta) </h3></div>
+                <div class="leafName"><h3 style="font-size: 1rem; padding: 0; margin: 0;"> Piper Betle </h3></div>
               </button>
 
-            </div>
-          </div>
-            
+            </div> -->
+        </div>
     </div>
 </body>
 <script src="../static/scripts/script.js" defer></script>
